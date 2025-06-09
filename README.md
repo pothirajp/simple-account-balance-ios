@@ -17,7 +17,7 @@ You are tasked with completing and fixing a Simple ATM application written in Sw
 
 ## Current State
 
-The application is structured using MVVM pattern with:
+The application is structured using simple MVVM pattern with in single ContentView.swift :
 
 - **Models:** `BankAccount`, `Transaction`, `TransactionType`
 - **ViewModel:** `ATMViewModel` (ObservableObject)
@@ -78,3 +78,7 @@ The project currently has compilation errors that prevent it from building. Fix 
 - Implement proper error recovery
 - Add animations/transitions
 - Write unit tests
+
+## Runnable Screenshot for reference
+
+![screenshot](./screenshot.png)
