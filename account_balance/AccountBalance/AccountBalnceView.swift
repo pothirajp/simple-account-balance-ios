@@ -91,7 +91,7 @@ class ATMViewModel: ObservableObject {
 }
 
 // MARK: - Views
-struct ContentView: View {
+struct AccountBalnceView: View {
     @StateObject private var viewModel = ATMViewModel()
     
     var body: some View {
@@ -214,8 +214,8 @@ struct LastTransactionView: View {
 }
 
 // MARK: - Preview
-struct ContentView_Previews: PreviewProvider {
+struct AccountBalnceView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AccountBalnceView()
     }
 }

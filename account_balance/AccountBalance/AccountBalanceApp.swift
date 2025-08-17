@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct account_balanceApp: App {
+struct AccountBalanceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AccountBalnceView()
         }
     }
 }

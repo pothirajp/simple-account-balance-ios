@@ -1,6 +1,6 @@
 import XCTest
 
-final class account_balanceUITestsLaunchTests: XCTestCase {
+final class AccountBalanceUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

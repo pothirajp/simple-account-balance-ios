@@ -30,19 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9E09F51E2DE405CD00039C4D /* account_balance */ = {
+		9E09F51E2DE405CD00039C4D /* AccountBalance */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = account_balance;
+			path = AccountBalance;
 			sourceTree = "<group>";
 		};
-		9E09F52F2DE405CF00039C4D /* account_balanceTests */ = {
+		9E09F52F2DE405CF00039C4D /* AccountBalanceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = account_balanceTests;
+			path = AccountBalanceTests;
 			sourceTree = "<group>";
 		};
-		9E09F5392DE405CF00039C4D /* account_balanceUITests */ = {
+		9E09F5392DE405CF00039C4D /* AccountBalanceUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = account_balanceUITests;
+			path = AccountBalanceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		9E09F5132DE405CD00039C4D = {
 			isa = PBXGroup;
 			children = (
-				9E09F51E2DE405CD00039C4D /* account_balance */,
-				9E09F52F2DE405CF00039C4D /* account_balanceTests */,
-				9E09F5392DE405CF00039C4D /* account_balanceUITests */,
+				9E09F51E2DE405CD00039C4D /* AccountBalance */,
+				9E09F52F2DE405CF00039C4D /* AccountBalanceTests */,
+				9E09F5392DE405CF00039C4D /* AccountBalanceUITests */,
 				9E09F51D2DE405CD00039C4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9E09F51E2DE405CD00039C4D /* account_balance */,
+				9E09F51E2DE405CD00039C4D /* AccountBalance */,
 			);
 			name = AccountBalance;
 			packageProductDependencies = (
@@ -131,7 +131,7 @@
 				9E09F52E2DE405CF00039C4D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9E09F52F2DE405CF00039C4D /* account_balanceTests */,
+				9E09F52F2DE405CF00039C4D /* AccountBalanceTests */,
 			);
 			name = AccountBalanceTests;
 			packageProductDependencies = (
@@ -154,7 +154,7 @@
 				9E09F5382DE405CF00039C4D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9E09F5392DE405CF00039C4D /* account_balanceUITests */,
+				9E09F5392DE405CF00039C4D /* AccountBalanceUITests */,
 			);
 			name = AccountBalanceUITests;
 			packageProductDependencies = (
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"account_balance/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AccountBalance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"account_balance/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AccountBalance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

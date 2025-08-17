@@ -1,6 +1,6 @@
 import XCTest
 
-final class account_balanceUITests: XCTestCase {
+final class AccountBalanceUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

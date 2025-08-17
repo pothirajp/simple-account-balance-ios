@@ -1,7 +1,7 @@
 import Testing
 @testable import account_balance
 
-struct account_balanceTests {
+struct AccountBalanceTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
