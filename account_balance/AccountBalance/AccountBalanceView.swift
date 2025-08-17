@@ -98,7 +98,8 @@ struct AccountBalnceView: View {
         NavigationView {
             VStack(spacing: 30) {
                 // MARK: - Header
-                ATMHeaderView(balance: viewModel.formattedBalance)
+                ATMHeaderView(accountNumber: viewModel.account.accountNumber,
+                              balance: viewModel.formattedBalance)
                 
                 // MARK: - Input Section
                 ATMInputView(inputAmount: $viewModel.inputAmount)
@@ -120,96 +121,6 @@ struct AccountBalnceView: View {
                 Button("OK") { }
             }
         }
-    }
-}
-
-struct ATMHeaderView: View {
-    let balance: String
-    
-    var body: some View {
-        VStack(spacing: 10) {
-            Text("Account Balance")
-                .font(.headline)
-                .foregroundColor(.gray)
-            
-            Text(balance)
-                .font(.system(size: 36, weight: .bold, design: .rounded))
-                .foregroundColor(.primary)
-        }
-        .padding()
-        .frame(maxWidth: .infinity)
-        .background(
-            RoundedRectangle(cornerRadius: 15)
-                .fill(Color.blue.opacity(0.1))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 15)
-                        .stroke(Color.blue.opacity(0.3), lineWidth: 2)
-                )
-        )
-    }
-}
-
-struct ATMInputView: View {
-    @Binding var inputAmount: String
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("Enter Amount")
-                .font(.headline)
-                .foregroundColor(.secondary)
-            
-            TextField("0.00", text: $inputAmount)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .keyboardType(.decimalPad)
-                .font(.title2)
-                .multilineTextAlignment(.center)
-        }
-        .padding(.horizontal)
-    }
-}
-
-struct ATMButtonsView: View {
-    let onDeposit: () -> Void
-    let onWithdraw: () -> Void
-    let isValidInput: Bool
-    
-    var body: some View {
-        HStack(spacing: 20) {
-            Button(action: onDeposit) {
-                HStack {
-                    Image(systemName: "plus.circle.fill")
-                    Text("Deposit")
-                }
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity, minHeight: 50)
-                .background(Color.green)
-                .cornerRadius(12)
-            }
-            .disabled(!isValidInput)
-            
-            Button(action: onWithdraw) {
-                HStack {
-                    Image(systemName: "minus.circle.fill")
-                    Text("Withdraw")
-                }
-                .font(.headline)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity, minHeight: 50)
-                .background(Color.red)
-                .cornerRadius(12)
-            }
-            .disabled(!isValidInput)
-        }
-        .padding(.horizontal)
-    }
-}
-
-struct LastTransactionView: View {
-    let transaction: Transaction?
-    
-    var body: some View {
-        EmptyView()
     }
 }
 
