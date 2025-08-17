@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E09F51C2DE405CD00039C4D /* account_balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = account_balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E09F52C2DE405CF00039C4D /* account_balanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = account_balanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E09F5362DE405CF00039C4D /* account_balanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = account_balanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09F51C2DE405CD00039C4D /* AccountBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09F52C2DE405CF00039C4D /* AccountBalanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBalanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E09F5362DE405CF00039C4D /* AccountBalanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBalanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		9E09F51D2DE405CD00039C4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E09F51C2DE405CD00039C4D /* account_balance.app */,
-				9E09F52C2DE405CF00039C4D /* account_balanceTests.xctest */,
-				9E09F5362DE405CF00039C4D /* account_balanceUITests.xctest */,
+				9E09F51C2DE405CD00039C4D /* AccountBalance.app */,
+				9E09F52C2DE405CF00039C4D /* AccountBalanceTests.xctest */,
+				9E09F5362DE405CF00039C4D /* AccountBalanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E09F51B2DE405CD00039C4D /* account_balance */ = {
+		9E09F51B2DE405CD00039C4D /* AccountBalance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E09F5402DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balance" */;
+			buildConfigurationList = 9E09F5402DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalance" */;
 			buildPhases = (
 				9E09F5182DE405CD00039C4D /* Sources */,
 				9E09F5192DE405CD00039C4D /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				9E09F51E2DE405CD00039C4D /* account_balance */,
 			);
-			name = account_balance;
+			name = AccountBalance;
 			packageProductDependencies = (
 			);
 			productName = account_balance;
-			productReference = 9E09F51C2DE405CD00039C4D /* account_balance.app */;
+			productReference = 9E09F51C2DE405CD00039C4D /* AccountBalance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9E09F52B2DE405CF00039C4D /* account_balanceTests */ = {
+		9E09F52B2DE405CF00039C4D /* AccountBalanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E09F5432DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balanceTests" */;
+			buildConfigurationList = 9E09F5432DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalanceTests" */;
 			buildPhases = (
 				9E09F5282DE405CF00039C4D /* Sources */,
 				9E09F5292DE405CF00039C4D /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				9E09F52F2DE405CF00039C4D /* account_balanceTests */,
 			);
-			name = account_balanceTests;
+			name = AccountBalanceTests;
 			packageProductDependencies = (
 			);
 			productName = account_balanceTests;
-			productReference = 9E09F52C2DE405CF00039C4D /* account_balanceTests.xctest */;
+			productReference = 9E09F52C2DE405CF00039C4D /* AccountBalanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9E09F5352DE405CF00039C4D /* account_balanceUITests */ = {
+		9E09F5352DE405CF00039C4D /* AccountBalanceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E09F5462DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balanceUITests" */;
+			buildConfigurationList = 9E09F5462DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalanceUITests" */;
 			buildPhases = (
 				9E09F5322DE405CF00039C4D /* Sources */,
 				9E09F5332DE405CF00039C4D /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				9E09F5392DE405CF00039C4D /* account_balanceUITests */,
 			);
-			name = account_balanceUITests;
+			name = AccountBalanceUITests;
 			packageProductDependencies = (
 			);
 			productName = account_balanceUITests;
-			productReference = 9E09F5362DE405CF00039C4D /* account_balanceUITests.xctest */;
+			productReference = 9E09F5362DE405CF00039C4D /* AccountBalanceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E09F5172DE405CD00039C4D /* Build configuration list for PBXProject "account_balance" */;
+			buildConfigurationList = 9E09F5172DE405CD00039C4D /* Build configuration list for PBXProject "AccountBalance" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E09F51B2DE405CD00039C4D /* account_balance */,
-				9E09F52B2DE405CF00039C4D /* account_balanceTests */,
-				9E09F5352DE405CF00039C4D /* account_balanceUITests */,
+				9E09F51B2DE405CD00039C4D /* AccountBalance */,
+				9E09F52B2DE405CF00039C4D /* AccountBalanceTests */,
+				9E09F5352DE405CF00039C4D /* AccountBalanceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		9E09F52E2DE405CF00039C4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9E09F51B2DE405CD00039C4D /* account_balance */;
+			target = 9E09F51B2DE405CD00039C4D /* AccountBalance */;
 			targetProxy = 9E09F52D2DE405CF00039C4D /* PBXContainerItemProxy */;
 		};
 		9E09F5382DE405CF00039C4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9E09F51B2DE405CD00039C4D /* account_balance */;
+			target = 9E09F51B2DE405CD00039C4D /* AccountBalance */;
 			targetProxy = 9E09F5372DE405CF00039C4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/account_balance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/account_balance";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccountBalance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AccountBalance";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/account_balance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/account_balance";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccountBalance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AccountBalance";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E09F5172DE405CD00039C4D /* Build configuration list for PBXProject "account_balance" */ = {
+		9E09F5172DE405CD00039C4D /* Build configuration list for PBXProject "AccountBalance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E09F53E2DE405CF00039C4D /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E09F5402DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balance" */ = {
+		9E09F5402DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E09F5412DE405CF00039C4D /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E09F5432DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balanceTests" */ = {
+		9E09F5432DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E09F5442DE405CF00039C4D /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E09F5462DE405CF00039C4D /* Build configuration list for PBXNativeTarget "account_balanceUITests" */ = {
+		9E09F5462DE405CF00039C4D /* Build configuration list for PBXNativeTarget "AccountBalanceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E09F5472DE405CF00039C4D /* Debug */,
