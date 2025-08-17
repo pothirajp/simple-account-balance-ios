@@ -28,7 +28,7 @@ enum TransactionType {
 
 // MARK: - View Model
 class ATMViewModel: ObservableObject {
-    @Published var account: BankAccount
+    @Published var account = BankAccount()
     @Published var inputAmount: String = ""
     @Published var showAlert = false
     @Published var alertMessage = ""
