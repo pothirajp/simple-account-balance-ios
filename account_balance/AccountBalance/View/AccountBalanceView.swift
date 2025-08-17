@@ -1,31 +1,5 @@
 import SwiftUI
 
-// MARK: - Models
-struct BankAccount {
-    var balance: Double
-    var accountNumber: String
-    var transactions: [Transaction]
-    
-    init(balance: Double = 1000.0, accountNumber: String = "ACC001") {
-        self.balance = balance
-        self.accountNumber = accountNumber
-        self.transactions = []
-    }
-}
-
-struct Transaction {
-    let id = UUID()
-    let type: TransactionType
-    let amount: Double
-    let timestamp: Date
-    let description: String
-}
-
-enum TransactionType {
-    case deposit
-    case withdrawal
-}
-
 // MARK: - View Model
 class ATMViewModel: ObservableObject {
     @Published var account = BankAccount()
