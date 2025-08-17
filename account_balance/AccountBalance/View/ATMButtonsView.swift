@@ -10,7 +10,6 @@ import SwiftUI
 struct ATMButtonsView: View {
     let onDeposit: () -> Void
     let onWithdraw: () -> Void
-    let isValidInput: Bool
     
     // MARK: - Constants
     private enum Constants {
@@ -38,7 +37,6 @@ struct ATMButtonsView: View {
                 .background(Color.green)
                 .cornerRadius(Constants.cornerRadius)
             }
-            .disabled(!isValidInput)
             
             Button(action: onWithdraw) {
                 HStack {
@@ -51,7 +49,6 @@ struct ATMButtonsView: View {
                 .background(Color.red)
                 .cornerRadius(Constants.cornerRadius)
             }
-            .disabled(!isValidInput)
         }
         .padding(.horizontal)
     }
